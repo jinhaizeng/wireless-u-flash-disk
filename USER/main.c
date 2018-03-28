@@ -18,6 +18,11 @@
 #include "usart3.h"
 #include "common.h" 
 
+#include "usbd_msc_core.h"
+#include "usbd_usr.h"
+#include "usbd_desc.h"
+#include "usb_conf.h" 
+
 
 //ALIENTEK探索者STM32F407开发板 扩展实验5
 //ATK-RM04 WIFI模块测试实验   -库函数版本 
@@ -27,8 +32,22 @@
 //作者：正点原子 @ALIENTEK 
 
 
+
+USB_OTG_CORE_HANDLE USB_OTG_dev;
+extern vu8 USB_STATUS_REG;		//USB状态
+extern vu8 bDeviceState;		//USB连接 情况
+
+
 int main(void)
-{        
+{  
+
+  //usb部分参数定义
+  u8 offline_cnt=0;
+	u8 tct=0;
+	u8 USB_STA;
+	u8 Divece_STA;
+  
+  
 	u8 key,fontok=0; 
   u32 total,free;
 	u8 t=0;	
@@ -120,13 +139,86 @@ int main(void)
  	POINT_COLOR=BLUE;//设置字体为蓝色	
   printf("FATFS OK!\r\n");
 	LCD_ShowString(30,150,200,16,16,"FATFS OK!");	 
-//	LCD_ShowString(30,170,200,16,16,"SD Total Size:     MB");	 
-//	LCD_ShowString(30,190,200,16,16,"SD  Free Size:     MB"); 	    
-// 	LCD_ShowNum(30+8*14,170,total>>10,5,16);				//显示SD卡总容量 MB
-// 	LCD_ShowNum(30+8*14,190,free>>10,5,16);					//显示SD卡剩余容量 MB		
   
- 
-	atk_8266_test();		//进入ATK_ESP8266测试
+  
+  
+
+  //usb部分代码
+  LCD_ShowString(30,170,200,16,16,"USB Connecting...");//提示正在建立连接 	    
+	USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_MSC_cb,&USR_cb);
+	delay_ms(1800);	
+	while(1)
+	{	
+    
+    
+    
+    Show_Str_Mid(0,30,"ATK-ESP8266 WIFI模块测试",16,240); 
+	while(atk_8266_send_cmd("AT","OK",20))//检查WIFI模块是否在线
+	{
+		atk_8266_quit_trans();//退出透传
+		atk_8266_send_cmd("AT+CIPMODE=0","OK",200);  //关闭透传模式	
+		Show_Str(40,55,200,16,"未检测到模块!!!",16,0);
+		delay_ms(800);
+		LCD_Fill(40,55,200,55+16,WHITE);
+		Show_Str(40,55,200,16,"尝试连接模块...",16,0); 
+	} 
+		while(atk_8266_send_cmd("ATE0","OK",20));//关闭回显
+  
+  
+  
+    delay_ms(10); 
+	  atk_8266_at_response(1);//检查ATK-ESP8266模块发送过来的数据,及时上传给电脑
+    Show_Str_Mid(0,30,"ATK-ESP WIFI-STA 测试",16,240);
+		Show_Str_Mid(0,50,"正在配置ATK-ESP8266模块，请稍等...",12,240);
+		atk_8266_wifista_test();//WIFI STA测试
+  
+		delay_ms(1);				  
+		if(USB_STA!=USB_STATUS_REG)//状态改变了 
+		{	 						   
+			LCD_Fill(30,190,240,190+16,WHITE);//清除显示			  	   
+			if(USB_STATUS_REG&0x01)//正在写		  
+			{
+				LED1=0;
+				LCD_ShowString(30,190,200,16,16,"USB Writing...");//提示USB正在写入数据	 
+			}
+			if(USB_STATUS_REG&0x02)//正在读
+			{
+				LED1=0;
+				LCD_ShowString(30,190,200,16,16,"USB Reading...");//提示USB正在读出数据  		 
+			}	 										  
+			if(USB_STATUS_REG&0x04)LCD_ShowString(30,210,200,16,16,"USB Write Err ");//提示写入错误
+			else LCD_Fill(30,210,240,210+16,WHITE);//清除显示	  
+			if(USB_STATUS_REG&0x08)LCD_ShowString(30,230,200,16,16,"USB Read  Err ");//提示读出错误
+			else LCD_Fill(30,230,240,230+16,WHITE);//清除显示    
+			USB_STA=USB_STATUS_REG;//记录最后的状态
+		}
+		if(Divece_STA!=bDeviceState) 
+		{
+			if(bDeviceState==1)LCD_ShowString(30,170,200,16,16,"USB Connected    ");//提示USB连接已经建立
+			else LCD_ShowString(30,170,200,16,16,"USB DisConnected ");//提示USB被拔出了
+			Divece_STA=bDeviceState;
+		}
+		tct++;
+		if(tct==200)
+		{
+			tct=0;
+			LED1=1;
+			LED0=!LED0;//提示系统在运行
+			if(USB_STATUS_REG&0x10)
+			{
+				offline_cnt=0;//USB连接了,则清除offline计数器
+				bDeviceState=1;
+			}else//没有得到轮询 
+			{
+				offline_cnt++;  
+				if(offline_cnt>10)bDeviceState=0;//2s内没收到在线标记,代表USB被拔出了
+			}
+			USB_STATUS_REG=0;
+		}
+	};  
+  
+  
+	//atk_8266_test();		//进入ATK_ESP8266测试
 }
 
 

@@ -49,7 +49,21 @@
 "..\obj\usmart.o"
 "..\obj\usmart_config.o"
 "..\obj\usmart_str.o"
---strict --scatter "..\OBJ\ATK_ESP8266.sct"
+"..\obj\usb_core.o"
+"..\obj\usb_dcd.o"
+"..\obj\usb_dcd_int.o"
+"..\obj\usbd_core.o"
+"..\obj\usbd_ioreq.o"
+"..\obj\usbd_req.o"
+"..\obj\usbd_msc_bot.o"
+"..\obj\usbd_msc_core.o"
+"..\obj\usbd_msc_data.o"
+"..\obj\usbd_msc_scsi.o"
+"..\obj\usb_bsp.o"
+"..\obj\usbd_desc.o"
+"..\obj\usbd_storage_msd.o"
+"..\obj\usbd_usr.o"
+--library_type=microlib --strict --scatter "..\OBJ\ATK_ESP8266.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "..\OBJ\ATK_ESP8266.map" -o ..\OBJ\ATK_ESP8266.axf

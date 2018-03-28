@@ -61,3 +61,15 @@
 ..\obj\main.o: ..\HARDWARE\USART3\usart3.h
 ..\obj\main.o: ..\ATK-ESP8266\common.h
 ..\obj\main.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\string.h
+..\obj\main.o: ..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h
+..\obj\main.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h
+..\obj\main.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h
+..\obj\main.o: ..\USB\USB_APP\usbd_conf.h
+..\obj\main.o: ..\USB\USB_APP\usb_conf.h
+..\obj\main.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h
+..\obj\main.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h
+..\obj\main.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_core.h
+..\obj\main.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h
+..\obj\main.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
+..\obj\main.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h
+..\obj\main.o: ..\USB\USB_APP\usbd_desc.h
