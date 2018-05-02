@@ -204,19 +204,10 @@ PRESTA:
           f_close(file);
           
           
-//          f_mount(NULL,"0:",0); 					
-//          res=f_mount(NULL,"1:",0); 				
-//          delay_ms(100);
-//          f_mount(fs[0],"0:",1); 					//挂载SD卡 
-//          res=f_mount(fs[1],"1:",1); 				//挂载FLASH.
-          
-//          USBD_DevDisconnected(&USB_OTG_dev); 
-//          
-//          USBD_DevConnected(&USB_OTG_dev);
 
           
-          DCD_DevDisconnect(&USB_OTG_dev);
-//          USB_OTG_StopDevice(&USB_OTG_dev); 
+          DCD_DevDisconnect(&USB_OTG_dev);                     //软件卸载USB_SLAVE，然后下面再重新初始化挂载
+          USB_OTG_StopDevice(&USB_OTG_dev); 
           
           delay_ms(200);
           USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_MSC_cb,&USR_cb);
@@ -237,8 +228,7 @@ PRESTA:
 				}  
 				if(t==1000)//连续10秒钟没有收到任何数据,检查连接是不是还存在.
 				{
-//			//		LCD_Fill(30+54,125,239,130,WHITE);
-//					LCD_Fill(60,80,120,92,WHITE);
+
 					constate=atk_8266_consta_check();//得到连接状态
 					if(constate=='+')Show_Str(30+30,80,200,12,"连接成功",12,0);  //连接状态
 					else Show_Str(30+30,80,200,12,"连接失败",12,0); 	 
