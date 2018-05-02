@@ -64,9 +64,13 @@ int main(void)
 	usmart_dev.init(168);		//初始化USMART
 	my_mem_init(SRAMIN);		//初始化内部内存池 
 	my_mem_init(SRAMCCM);		//初始化CCM内存池 
+  
+  
 	exfuns_init();				//为fatfs相关变量申请内存  
   	f_mount(fs[0],"0:",1); 		//挂载SD卡 
  	f_mount(fs[1],"1:",1); 		//挂载FLASH.
+  
+  
 	key=KEY_Scan(0);  
 	if(key==KEY0_PRES)		//强制校准
 	{
@@ -146,7 +150,7 @@ int main(void)
   //usb部分代码
   LCD_ShowString(30,170,200,16,16,"USB Connecting...");//提示正在建立连接 	    
 	USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_MSC_cb,&USR_cb);
-  
+ 
 	delay_ms(1800);	
 	while(1)
 	{	

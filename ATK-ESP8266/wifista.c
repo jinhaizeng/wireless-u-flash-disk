@@ -212,14 +212,17 @@ PRESTA:
           
 //          USBD_DevDisconnected(&USB_OTG_dev); 
 //          
-//          USBD_DevConnected(&USB_OTG_dev);  
-//            USB_OTG_StopDevice(&USB_OTG_dev);       
-//          USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_MSC_cb,&USR_cb);
-//          delay_ms(1800);
+//          USBD_DevConnected(&USB_OTG_dev);
+
+          
+          DCD_DevDisconnect(&USB_OTG_dev);
+//          USB_OTG_StopDevice(&USB_OTG_dev); 
+          
+          delay_ms(200);
+          USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_MSC_cb,&USR_cb);
+          delay_ms(1800);
+          
          
-          
-          
-          
 					printf("%s",USART3_RX_BUF);	//发送到串口   
 					sprintf((char*)p,"收到%d字节,内容如下",rlen);//接收到的字节数 
 					LCD_Fill(30+54,115,239,130,WHITE);
