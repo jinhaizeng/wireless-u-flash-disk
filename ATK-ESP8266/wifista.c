@@ -1,19 +1,33 @@
-#include "common.h"
-#include "stdlib.h"
 #include "sys.h"
-#include "delay.h"
-#include "usart.h"
+#include "delay.h"  
+#include "usart.h"   
 #include "led.h"
 #include "lcd.h"
 #include "key.h"  
+#include "usmart.h"  
 #include "sram.h"   
 #include "malloc.h" 
-#include "usmart.h"  
-#include "sdio_sdcard.h"    
-#include "malloc.h" 
 #include "w25qxx.h"    
+#include "sdio_sdcard.h"
 #include "ff.h"  
-#include "exfuns.h"
+#include "exfuns.h"    
+#include "fontupd.h"
+#include "text.h"	
+#include "usmart.h"	
+#include "touch.h"		
+#include "usart3.h"
+#include "common.h" 
+
+#include "usbd_msc_core.h"
+#include "usbd_usr.h"
+#include "usbd_desc.h"
+#include "usb_conf.h" 
+
+#include "usbd_core.h"
+#include "usbd_req.h"
+#include "usbd_ioreq.h"
+#include "usb_dcd_int.h"
+#include "usb_bsp.h"
 /////////////////////////////////////////////////////////////////////////////////////////////////////////// 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK STM32开发板
@@ -188,6 +202,22 @@ PRESTA:
           }
           else printf("\r\n f_puts() success..\r\n");
           f_close(file);
+          
+          
+//          f_mount(NULL,"0:",0); 					
+//          res=f_mount(NULL,"1:",0); 				
+//          delay_ms(100);
+//          f_mount(fs[0],"0:",1); 					//挂载SD卡 
+//          res=f_mount(fs[1],"1:",1); 				//挂载FLASH.
+          
+//          USBD_DevDisconnected(&USB_OTG_dev); 
+//          
+//          USBD_DevConnected(&USB_OTG_dev);  
+//            USB_OTG_StopDevice(&USB_OTG_dev);       
+//          USBD_Init(&USB_OTG_dev,USB_OTG_FS_CORE_ID,&USR_desc,&USBD_MSC_cb,&USR_cb);
+//          delay_ms(1800);
+         
+          
           
           
 					printf("%s",USART3_RX_BUF);	//发送到串口   

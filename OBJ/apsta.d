@@ -52,6 +52,18 @@
 ..\obj\apsta.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\apsta.o: ..\TEXT\text.h
 ..\obj\apsta.o: ..\TEXT\fontupd.h
+..\obj\apsta.o: ..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h
+..\obj\apsta.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h
+..\obj\apsta.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h
+..\obj\apsta.o: ..\USB\USB_APP\usbd_conf.h
+..\obj\apsta.o: ..\USB\USB_APP\usb_conf.h
+..\obj\apsta.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h
+..\obj\apsta.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h
+..\obj\apsta.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_core.h
+..\obj\apsta.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h
+..\obj\apsta.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
+..\obj\apsta.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h
+..\obj\apsta.o: ..\USB\USB_APP\usbd_desc.h
 ..\obj\apsta.o: ..\HARDWARE\USART3\usart3.h
 ..\obj\apsta.o: ..\FATFS\src\ff.h
 ..\obj\apsta.o: ..\FATFS\src\integer.h

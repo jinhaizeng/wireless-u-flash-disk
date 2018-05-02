@@ -40,6 +40,18 @@
 ..\obj\text.o: ..\HARDWARE\LCD\lcd.h
 ..\obj\text.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\text.o: ..\TEXT\text.h
+..\obj\text.o: ..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h
+..\obj\text.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h
+..\obj\text.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h
+..\obj\text.o: ..\USB\USB_APP\usbd_conf.h
+..\obj\text.o: ..\USB\USB_APP\usb_conf.h
+..\obj\text.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h
+..\obj\text.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h
+..\obj\text.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_core.h
+..\obj\text.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h
+..\obj\text.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
+..\obj\text.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h
+..\obj\text.o: ..\USB\USB_APP\usbd_desc.h
 ..\obj\text.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\text.o: ..\SYSTEM\usart\usart.h
 ..\obj\text.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\stdio.h

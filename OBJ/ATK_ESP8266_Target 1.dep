@@ -1,5 +1,5 @@
 Dependencies for Project 'ATK_ESP8266', Target 'Target 1': (DO NOT MODIFY !)
-F (.\main.c)(0x5ABB07C7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x5AE98034)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (..\SYSTEM\sys\sys.h)(0x53B52F5F)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -53,26 +53,26 @@ I (..\FATFS\src\integer.h)(0x52D56672)
 I (..\FATFS\src\ffconf.h)(0x532282B1)
 I (..\FATFS\exfuns\exfuns.h)(0x537486DD)
 I (..\TEXT\fontupd.h)(0x54213583)
-I (..\TEXT\text.h)(0x54213577)
-I (..\HARDWARE\TOUCH\touch.h)(0x55571366)
-I (..\HARDWARE\TOUCH\ott2001a.h)(0x5438EE64)
-I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
-I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
-I (..\ATK-ESP8266\common.h)(0x55F24599)
-I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\TEXT\text.h)(0x5AE9622F)
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
+I (..\HARDWARE\TOUCH\touch.h)(0x55571366)
+I (..\HARDWARE\TOUCH\ott2001a.h)(0x5438EE64)
+I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
+I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
+I (..\ATK-ESP8266\common.h)(0x55F24599)
+I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
 F (.\stm32f4xx_it.c)(0x5426CDF4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
 I (stm32f4xx_it.h)(0x5426CDC1)
 I (stm32f4xx.h)(0x542BA483)
@@ -863,7 +863,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
@@ -1586,7 +1586,19 @@ I (..\TEXT\fontupd.h)(0x54213583)
 I (..\HARDWARE\W25QXX\w25qxx.h)(0x5368CD39)
 I (..\HARDWARE\LCD\lcd.h)(0x55571120)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
-I (..\TEXT\text.h)(0x54213577)
+I (..\TEXT\text.h)(0x5AE9622F)
+I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (..\SYSTEM\usart\usart.h)(0x5397010C)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdio.h)(0x574E3E26)
@@ -1689,13 +1701,25 @@ I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
 I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
 I (..\MALLOC\malloc.h)(0x54212E6B)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\TEXT\text.h)(0x54213577)
+I (..\TEXT\text.h)(0x5AE9622F)
 I (..\TEXT\fontupd.h)(0x54213583)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
+I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
 I (..\FATFS\src\ff.h)(0x53BFB936)
 I (..\FATFS\src\integer.h)(0x52D56672)
 I (..\FATFS\src\ffconf.h)(0x532282B1)
-F (..\ATK-ESP8266\common.c)(0x5ABA67FB)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\common.o --omf_browse ..\obj\common.crf --depend ..\obj\common.d)
+F (..\ATK-ESP8266\common.c)(0x5AE885CD)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\common.o --omf_browse ..\obj\common.crf --depend ..\obj\common.d)
 I (..\ATK-ESP8266\common.h)(0x55F24599)
 I (..\SYSTEM\sys\sys.h)(0x53B52F5F)
 I (..\USER\stm32f4xx.h)(0x542BA483)
@@ -1746,9 +1770,21 @@ I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
 I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
 I (..\MALLOC\malloc.h)(0x54212E6B)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\TEXT\text.h)(0x54213577)
+I (..\TEXT\text.h)(0x5AE9622F)
 I (..\TEXT\fontupd.h)(0x54213583)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
+I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
 I (..\FATFS\src\ff.h)(0x53BFB936)
 I (..\FATFS\src\integer.h)(0x52D56672)
 I (..\FATFS\src\ffconf.h)(0x532282B1)
@@ -1803,14 +1839,25 @@ I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
 I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
 I (..\MALLOC\malloc.h)(0x54212E6B)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\TEXT\text.h)(0x54213577)
+I (..\TEXT\text.h)(0x5AE9622F)
 I (..\TEXT\fontupd.h)(0x54213583)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
+I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
 I (..\FATFS\src\ff.h)(0x53BFB936)
 I (..\FATFS\src\integer.h)(0x52D56672)
 I (..\FATFS\src\ffconf.h)(0x532282B1)
-F (..\ATK-ESP8266\wifista.c)(0x5ABAF731)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\wifista.o --omf_browse ..\obj\wifista.crf --depend ..\obj\wifista.d)
-I (..\ATK-ESP8266\common.h)(0x55F24599)
+F (..\ATK-ESP8266\wifista.c)(0x5AE98034)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\wifista.o --omf_browse ..\obj\wifista.crf --depend ..\obj\wifista.d)
 I (..\SYSTEM\sys\sys.h)(0x53B52F5F)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
@@ -1846,31 +1893,47 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
+I (..\SYSTEM\delay\delay.h)(0x53B7797C)
 I (..\SYSTEM\usart\usart.h)(0x5397010C)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdio.h)(0x574E3E26)
-I (..\SYSTEM\delay\delay.h)(0x53B7797C)
 I (..\HARDWARE\LED\led.h)(0x53B53723)
-I (..\HARDWARE\KEY\key.h)(0x53C0BE22)
 I (..\HARDWARE\LCD\lcd.h)(0x55571120)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\HARDWARE\KEY\key.h)(0x53C0BE22)
+I (..\USMART\usmart.h)(0x528CCEDB)
+I (..\USMART\usmart_str.h)(0x53673F41)
+I (..\HARDWARE\SRAM\sram.h)(0x53BEA52A)
+I (..\MALLOC\malloc.h)(0x54212E6B)
 I (..\HARDWARE\W25QXX\w25qxx.h)(0x5368CD39)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
+I (..\FATFS\src\ff.h)(0x53BFB936)
+I (..\FATFS\src\integer.h)(0x52D56672)
+I (..\FATFS\src\ffconf.h)(0x532282B1)
+I (..\FATFS\exfuns\exfuns.h)(0x537486DD)
+I (..\TEXT\fontupd.h)(0x54213583)
+I (..\TEXT\text.h)(0x5AE9622F)
+I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
 I (..\HARDWARE\TOUCH\touch.h)(0x55571366)
 I (..\HARDWARE\TOUCH\ott2001a.h)(0x5438EE64)
 I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
 I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
-I (..\MALLOC\malloc.h)(0x54212E6B)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
+I (..\ATK-ESP8266\common.h)(0x55F24599)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\TEXT\text.h)(0x54213577)
-I (..\TEXT\fontupd.h)(0x54213583)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
-I (..\FATFS\src\ff.h)(0x53BFB936)
-I (..\FATFS\src\integer.h)(0x52D56672)
-I (..\FATFS\src\ffconf.h)(0x532282B1)
-I (..\HARDWARE\SRAM\sram.h)(0x53BEA52A)
-I (..\USMART\usmart.h)(0x528CCEDB)
-I (..\USMART\usmart_str.h)(0x53673F41)
-I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
-I (..\FATFS\exfuns\exfuns.h)(0x537486DD)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_req.h)(0x5710F41B)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd_int.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_bsp.h)(0x5710F41C)
 F (..\USMART\usmart.c)(0x541D21D4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usmart.o --omf_browse ..\obj\usmart.crf --depend ..\obj\usmart.d)
 I (..\USMART\usmart.h)(0x528CCEDB)
 I (..\USMART\usmart_str.h)(0x53673F41)
@@ -1964,9 +2027,21 @@ I (..\HARDWARE\TOUCH\gt9147.h)(0x555711A6)
 I (..\HARDWARE\TOUCH\ft5206.h)(0x547D6C72)
 I (..\MALLOC\malloc.h)(0x54212E6B)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\string.h)(0x574E3E26)
-I (..\TEXT\text.h)(0x54213577)
+I (..\TEXT\text.h)(0x5AE9622F)
 I (..\TEXT\fontupd.h)(0x54213583)
-I (..\HARDWARE\USART3\usart3.h)(0x53E5BB7E)
+I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
+I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
+I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
+I (..\HARDWARE\USART3\usart3.h)(0x5AE94E8B)
 I (..\FATFS\src\ff.h)(0x53BFB936)
 I (..\FATFS\src\integer.h)(0x52D56672)
 I (..\FATFS\src\ffconf.h)(0x532282B1)
@@ -2007,9 +2082,9 @@ I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\USMART\usmart.h)(0x528CCEDB)
-F (..\USB\STM32_USB_OTG_Driver\src\usb_core.c)(0x5710F41D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usb_core.o --omf_browse ..\obj\usb_core.crf --depend ..\obj\usb_core.d)
+F (..\USB\STM32_USB_OTG_Driver\src\usb_core.c)(0x5AE97222)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usb_core.o --omf_browse ..\obj\usb_core.crf --depend ..\obj\usb_core.d)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2050,7 +2125,7 @@ I (..\USB\STM32_USB_OTG_Driver\inc\usb_bsp.h)(0x5710F41C)
 F (..\USB\STM32_USB_OTG_Driver\src\usb_dcd.c)(0x5710F41D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usb_dcd.o --omf_browse ..\obj\usb_dcd.crf --depend ..\obj\usb_dcd.d)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2088,11 +2163,11 @@ I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_bsp.h)(0x5710F41C)
-F (..\USB\STM32_USB_OTG_Driver\src\usb_dcd_int.c)(0x5710F41D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usb_dcd_int.o --omf_browse ..\obj\usb_dcd_int.crf --depend ..\obj\usb_dcd_int.d)
+F (..\USB\STM32_USB_OTG_Driver\src\usb_dcd_int.c)(0x5AE96DF8)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usb_dcd_int.o --omf_browse ..\obj\usb_dcd_int.crf --depend ..\obj\usb_dcd_int.d)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd_int.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2129,11 +2204,11 @@ I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h)(0x5710F41D)
-F (..\USB\STM32_USB_Device_Library\Core\src\usbd_core.c)(0x5710F41B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_core.o --omf_browse ..\obj\usbd_core.crf --depend ..\obj\usbd_core.d)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+F (..\USB\STM32_USB_Device_Library\Core\src\usbd_core.c)(0x5AE97338)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_core.o --omf_browse ..\obj\usbd_core.crf --depend ..\obj\usbd_core.d)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2180,7 +2255,7 @@ F (..\USB\STM32_USB_Device_Library\Core\src\usbd_ioreq.c)(0x5710F41B)(-c --cpu C
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2215,7 +2290,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
@@ -2224,7 +2299,7 @@ F (..\USB\STM32_USB_Device_Library\Core\src\usbd_req.c)(0x5710F41B)(-c --cpu Cor
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_req.h)(0x5710F41B)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2259,7 +2334,7 @@ I (..\FWLIB\inc\stm32f4xx_can.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
@@ -2268,10 +2343,10 @@ I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_desc.h)(0x5710F41E)
 F (..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_bot.c)(0x5710F41B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_msc_bot.o --omf_browse ..\obj\usbd_msc_bot.crf --depend ..\obj\usbd_msc_bot.d)
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_bot.h)(0x5710F41A)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2317,7 +2392,7 @@ F (..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_core.c)(0x5710F41B)(-c
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_mem.h)(0x5710F41B)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2354,7 +2429,7 @@ I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h)(0x5710F41A)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h)(0x5710F41B)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h)(0x5710F41D)
@@ -2364,7 +2439,7 @@ I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_req.h)(0x5710F41B)
 F (..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_data.c)(0x5710F41B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_msc_data.o --omf_browse ..\obj\usbd_msc_data.crf --depend ..\obj\usbd_msc_data.d)
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_data.h)(0x5710F41A)
 I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2401,10 +2476,10 @@ I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x53DBAFAD)
 I (..\FWLIB\inc\stm32f4xx_fsmc.h)(0x53DBAFAD)
 F (..\USB\STM32_USB_Device_Library\Class\msc\src\usbd_msc_scsi.c)(0x5710F41B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_msc_scsi.o --omf_browse ..\obj\usbd_msc_scsi.crf --depend ..\obj\usbd_msc_scsi.d)
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_bot.h)(0x5710F41A)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2449,7 +2524,7 @@ I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_data.h)(0x5710F41A)
 F (..\USB\USB_APP\usb_bsp.c)(0x5710F41D)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usb_bsp.o --omf_browse ..\obj\usb_bsp.crf --depend ..\obj\usb_bsp.d)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_bsp.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2491,10 +2566,10 @@ I (..\SYSTEM\delay\delay.h)(0x53B7797C)
 I (..\SYSTEM\usart\usart.h)(0x5397010C)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 F (..\USB\USB_APP\usbd_desc.c)(0x5710F41E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_desc.o --omf_browse ..\obj\usbd_desc.crf --depend ..\obj\usbd_desc.d)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2539,7 +2614,7 @@ F (..\USB\USB_APP\usbd_storage_msd.c)(0x5710F41E)(-c --cpu Cortex-M4.fp -D__MICR
 I (..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_mem.h)(0x5710F41B)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h)(0x5710F41B)
 I (..\USB\USB_APP\usbd_conf.h)(0x5710F41D)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)
@@ -2579,10 +2654,10 @@ I (..\SYSTEM\sys\sys.h)(0x53B52F5F)
 I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x5448807D)
 F (..\USB\USB_APP\usbd_usr.c)(0x5710F41E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\ATK-ESP8266 -I ..\CORE -I ..\FATFS\src -I ..\FATFS\exfuns -I ..\FWLIB\inc -I ..\HARDWARE\24CXX -I ..\HARDWARE\IIC -I ..\HARDWARE\KEY -I ..\HARDWARE\LCD -I ..\HARDWARE\LED -I ..\HARDWARE\SDIO -I ..\HARDWARE\SPI -I ..\HARDWARE\SRAM -I ..\HARDWARE\TIMER -I ..\HARDWARE\TOUCH -I ..\HARDWARE\USART3 -I ..\HARDWARE\W25QXX -I ..\MALLOC -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\TEXT -I ..\USER -I ..\USMART -I ..\USB\USB_APP -I ..\USB\STM32_USB_OTG_Driver\inc -I ..\USB\STM32_USB_Device_Library\Core\inc -I ..\USB\STM32_USB_Device_Library\Class\msc\inc-I"E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\CMSIS\Include"-I"D:\Sofeware\Code Tools\MDK5.21\ARM\PACK\Keil\STM32F4xx_DFP\2.12.0\Device\Include"-D__UVISION_VERSION="521" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -DUSE_USB_OTG_FS --C99-o ..\obj\usbd_usr.o --omf_browse ..\obj\usbd_usr.crf --depend ..\obj\usbd_usr.d)
 I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h)(0x5710F41B)
-I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5710F41B)
+I (..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h)(0x5AE97338)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h)(0x5710F41C)
 I (..\USB\STM32_USB_OTG_Driver\inc\usb_core.h)(0x5710F41C)
-I (..\USB\USB_APP\usb_conf.h)(0x5710F41D)
+I (..\USB\USB_APP\usb_conf.h)(0x5AE97222)
 I (..\USER\stm32f4xx.h)(0x542BA483)
 I (..\CORE\core_cm4.h)(0x53C7D530)
 I (D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\include\stdint.h)(0x574E3E26)

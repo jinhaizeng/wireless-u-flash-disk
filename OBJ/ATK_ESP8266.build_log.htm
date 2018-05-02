@@ -22,19 +22,28 @@ Dialog DLL:      TCM.DLL V1.14.14.0
  
 <h2>Project:</h2>
 E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\ATK_ESP8266.uvprojx
-Project File Date:  03/27/2018
+Project File Date:  03/28/2018
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin'
 Build target 'Target 1'
 compiling main.c...
+main.c(45): warning:  #177-D: variable "offline_cnt" was declared but never referenced
+    u8 offline_cnt=0;
+main.c(46): warning:  #177-D: variable "tct" was declared but never referenced
+  	u8 tct=0;
+main.c(47): warning:  #177-D: variable "USB_STA" was declared but never referenced
+  	u8 USB_STA;
+main.c(48): warning:  #177-D: variable "Divece_STA" was declared but never referenced
+  	u8 Divece_STA;
 main.c(53): warning:  #177-D: variable "t" was declared but never referenced
   	u8 t=0;	
-main.c: 1 warning, 0 errors
+main.c: 5 warnings, 0 errors
+compiling wifista.c...
 linking...
-Program Size: Code=83558 RO-data=8626 RW-data=1264 ZI-data=1239400  
+Program Size: Code=83154 RO-data=8626 RW-data=1264 ZI-data=1239400  
 FromELF: creating hex file...
-"..\OBJ\ATK_ESP8266.axf" - 0 Error(s), 1 Warning(s).
+"..\OBJ\ATK_ESP8266.axf" - 0 Error(s), 5 Warning(s).
 
 <h2>Collection of Component include folders:</h2>
   E:\嵌入式\STM32\CODE\STM32F4CODE\STITP\wireless u flash disk\USER\RTE

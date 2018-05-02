@@ -2,6 +2,12 @@
 #define __TEXT_H__	 
 #include <stm32f4xx.h>
 #include "fontupd.h"
+
+#include "usbd_msc_core.h"
+#include "usbd_usr.h"
+#include "usbd_desc.h"
+#include "usb_conf.h" 
+
 //////////////////////////////////////////////////////////////////////////////////	 
 //本程序只供学习使用，未经作者许可，不得用于其它任何用途
 //ALIENTEK STM32F407开发板
@@ -14,7 +20,9 @@
 //Copyright(C) 广州市星翼电子科技有限公司 2014-2024
 //All rights reserved									  
 ////////////////////////////////////////////////////////////////////////////////// 	 
- 					     
+
+extern USB_OTG_CORE_HANDLE USB_OTG_dev;
+
 void Get_HzMat(unsigned char *code,unsigned char *mat,u8 size);			//得到汉字的点阵码
 void Show_Font(u16 x,u16 y,u8 *font,u8 size,u8 mode);					//在指定位置显示一个汉字
 void Show_Str(u16 x,u16 y,u16 width,u16 height,u8*str,u8 size,u8 mode);	//在指定位置显示一个字符串 

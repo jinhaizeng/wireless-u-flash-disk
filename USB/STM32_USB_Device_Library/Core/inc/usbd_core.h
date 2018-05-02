@@ -100,6 +100,9 @@ USBD_Status USBD_ClrCfg(USB_OTG_CORE_HANDLE  *pdev, uint8_t cfgidx);
 
 USBD_Status USBD_SetCfg(USB_OTG_CORE_HANDLE  *pdev, uint8_t cfgidx);
 
+uint8_t USBD_Start(USB_OTG_CORE_HANDLE  *pdev);
+uint8_t USBD_Stop(USB_OTG_CORE_HANDLE  *pdev);
+
 /**
   * @}
   */ 

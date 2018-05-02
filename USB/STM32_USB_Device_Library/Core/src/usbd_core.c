@@ -488,6 +488,21 @@ static uint8_t USBD_DevDisconnected(USB_OTG_CORE_HANDLE  *pdev)
   return USBD_OK;
 }
 #endif
+
+uint8_t USBD_Start(USB_OTG_CORE_HANDLE  *pdev)
+{
+  pdev->dev.usr_cb->DeviceConnected();
+  pdev->dev.connection_status = 1;  
+  return USBD_OK;
+}
+
+uint8_t USBD_Stop(USB_OTG_CORE_HANDLE  *pdev)
+{
+  pdev->dev.usr_cb->DeviceDisconnected();
+  pdev->dev.class_cb->DeInit(pdev, 0);
+  pdev->dev.connection_status = 0;    
+  return USBD_OK;
+}
 /**
 * @}
 */ 

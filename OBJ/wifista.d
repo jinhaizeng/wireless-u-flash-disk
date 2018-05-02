@@ -1,5 +1,4 @@
 ..\obj\wifista.o: ..\ATK-ESP8266\wifista.c
-..\obj\wifista.o: ..\ATK-ESP8266\common.h
 ..\obj\wifista.o: ..\SYSTEM\sys\sys.h
 ..\obj\wifista.o: ..\USER\stm32f4xx.h
 ..\obj\wifista.o: ..\CORE\core_cm4.h
@@ -36,28 +35,44 @@
 ..\obj\wifista.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\wifista.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\wifista.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
+..\obj\wifista.o: ..\SYSTEM\delay\delay.h
 ..\obj\wifista.o: ..\SYSTEM\usart\usart.h
 ..\obj\wifista.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\stdio.h
-..\obj\wifista.o: ..\SYSTEM\delay\delay.h
 ..\obj\wifista.o: ..\HARDWARE\LED\led.h
-..\obj\wifista.o: ..\HARDWARE\KEY\key.h
 ..\obj\wifista.o: ..\HARDWARE\LCD\lcd.h
 ..\obj\wifista.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\stdlib.h
+..\obj\wifista.o: ..\HARDWARE\KEY\key.h
+..\obj\wifista.o: ..\USMART\usmart.h
+..\obj\wifista.o: ..\USMART\usmart_str.h
+..\obj\wifista.o: ..\HARDWARE\SRAM\sram.h
+..\obj\wifista.o: ..\MALLOC\malloc.h
 ..\obj\wifista.o: ..\HARDWARE\W25QXX\w25qxx.h
+..\obj\wifista.o: ..\HARDWARE\SDIO\sdio_sdcard.h
+..\obj\wifista.o: ..\FATFS\src\ff.h
+..\obj\wifista.o: ..\FATFS\src\integer.h
+..\obj\wifista.o: ..\FATFS\src\ffconf.h
+..\obj\wifista.o: ..\FATFS\exfuns\exfuns.h
+..\obj\wifista.o: ..\TEXT\fontupd.h
+..\obj\wifista.o: ..\TEXT\text.h
+..\obj\wifista.o: ..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h
+..\obj\wifista.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h
+..\obj\wifista.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h
+..\obj\wifista.o: ..\USB\USB_APP\usbd_conf.h
+..\obj\wifista.o: ..\USB\USB_APP\usb_conf.h
+..\obj\wifista.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h
+..\obj\wifista.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h
+..\obj\wifista.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_core.h
+..\obj\wifista.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h
+..\obj\wifista.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
+..\obj\wifista.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h
+..\obj\wifista.o: ..\USB\USB_APP\usbd_desc.h
 ..\obj\wifista.o: ..\HARDWARE\TOUCH\touch.h
 ..\obj\wifista.o: ..\HARDWARE\TOUCH\ott2001a.h
 ..\obj\wifista.o: ..\HARDWARE\TOUCH\gt9147.h
 ..\obj\wifista.o: ..\HARDWARE\TOUCH\ft5206.h
-..\obj\wifista.o: ..\MALLOC\malloc.h
-..\obj\wifista.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\string.h
-..\obj\wifista.o: ..\TEXT\text.h
-..\obj\wifista.o: ..\TEXT\fontupd.h
 ..\obj\wifista.o: ..\HARDWARE\USART3\usart3.h
-..\obj\wifista.o: ..\FATFS\src\ff.h
-..\obj\wifista.o: ..\FATFS\src\integer.h
-..\obj\wifista.o: ..\FATFS\src\ffconf.h
-..\obj\wifista.o: ..\HARDWARE\SRAM\sram.h
-..\obj\wifista.o: ..\USMART\usmart.h
-..\obj\wifista.o: ..\USMART\usmart_str.h
-..\obj\wifista.o: ..\HARDWARE\SDIO\sdio_sdcard.h
-..\obj\wifista.o: ..\FATFS\exfuns\exfuns.h
+..\obj\wifista.o: ..\ATK-ESP8266\common.h
+..\obj\wifista.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\string.h
+..\obj\wifista.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_req.h
+..\obj\wifista.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd_int.h
+..\obj\wifista.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_bsp.h

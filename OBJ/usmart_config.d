@@ -54,6 +54,18 @@
 ..\obj\usmart_config.o: D:\Sofeware\Code Tools\MDK5.21\ARM\ARMCC\Bin\..\include\string.h
 ..\obj\usmart_config.o: ..\TEXT\text.h
 ..\obj\usmart_config.o: ..\TEXT\fontupd.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_Device_Library\Class\msc\inc\usbd_msc_core.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_ioreq.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_def.h
+..\obj\usmart_config.o: ..\USB\USB_APP\usbd_conf.h
+..\obj\usmart_config.o: ..\USB\USB_APP\usb_conf.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_core.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_dcd.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_core.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_regs.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_OTG_Driver\inc\usb_defines.h
+..\obj\usmart_config.o: ..\USB\STM32_USB_Device_Library\Core\inc\usbd_usr.h
+..\obj\usmart_config.o: ..\USB\USB_APP\usbd_desc.h
 ..\obj\usmart_config.o: ..\HARDWARE\USART3\usart3.h
 ..\obj\usmart_config.o: ..\FATFS\src\ff.h
 ..\obj\usmart_config.o: ..\FATFS\src\integer.h
